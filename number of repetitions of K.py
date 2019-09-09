@@ -6,3 +6,5 @@ for p in li:
     if p == y:
         count=count+1
 print(count)
+if(count==0):
+     print("No")
