@@ -1,10 +1,8 @@
 count=0
-x=int(input())
-y=int(input())
+N,K=map(int,input().split())
 li=[int(m) for m in input().split()]
-for p in li:
-    if p == y:
-        count=count+1
-print(count)
-if(count==0):
-     print("No")
+if(len(li)==N):
+    for p in li:
+        if p == K:
+            count=count+1
+    print(count)
