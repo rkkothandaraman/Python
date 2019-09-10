@@ -4,4 +4,4 @@ if(N==len(li)):
     c=li[0]
     for i in range(len(li)):
         c= c & li[i]
-    print (c)
+        print (c)
