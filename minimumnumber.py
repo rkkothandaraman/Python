@@ -1,5 +1,4 @@
-N=int(input())
 li=[int(x) for x in input().split()]
-if(N==len(li)):
+if(len(li)==10):
     min=min(li)
     print(min)
